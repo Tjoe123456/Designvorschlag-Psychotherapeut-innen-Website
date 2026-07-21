@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>[Name der Praxis] – Praxis für Psychotherapie</title>
+<meta name="description" content="[Name der Praxis] – Praxis für Psychotherapie. Ein ruhiger Ort für Erstgespräch, Orientierung und Begleitung. Kontaktieren Sie uns telefonisch oder per E-Mail.">
+<meta name="robots" content="noindex, nofollow">
+
+<!-- Open Graph -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="[Name der Praxis] – Praxis für Psychotherapie">
+<meta property="og:description" content="Ein ruhiger Ort für Erstgespräch, Orientierung und Begleitung.">
+<meta property="og:image" content="hero.png">
+<meta property="og:locale" content="de_DE">
+
+<!--
+  ============================================================
+  DESIGNENTWURF – UNVERBINDLICH
+  Diese Datei ist ein reiner Frontend-Entwurf (statisches HTML).
+  Alle Inhalte in eckigen Klammern [ ] sind Platzhalter und
+  müssen vor Veröffentlichung durch echte, geprüfte Angaben
+  ersetzt werden (Name, Adresse, Kontakt, Qualifikationen,
+  Leistungen, Rechtstexte). Es wurden keinerlei Fakten erfunden.
+  ============================================================
+-->
+
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<a class="skip-link" href="#main-content">Zum Inhalt springen</a>
+
+<!-- Entwurfskennzeichnung: dezenter Hinweis + halbtransparenter Schriftzug -->
+<div class="draft-badge">Unverbindlicher Designentwurf</div>
+<div class="draft-watermark" aria-hidden="true">ENTWURF</div>
+
+<!-- Fixierter Hintergrund: bewegt sich beim Scrollen dezent mit und wird
+     von den deckenden Section-Flächen automatisch überdeckt (nur im
+     transparenten Hero sichtbar). -->
+<div class="parallax-bg" aria-hidden="true">
+  <img src="hero.png" id="parallaxImg" alt="">
+  <div class="parallax-wash"></div>
+  <div class="parallax-grain"></div>
+</div>
+
+<div class="page">
+
+<!-- ==========================================================
+     HEADER / NAVIGATION
+     ========================================================== -->
+<header class="site-header">
+  <div class="nav-wrap" id="navWrap">
+    <a class="logo" href="#hero">[Name der Praxis]</a>
+
+    <ul class="nav-links">
+      <li><a href="#ueber-uns">Über die Praxis</a></li>
+      <li><a href="#angebot">Angebot</a></li>
+      <li><a href="#arbeitsweise">Arbeitsweise</a></li>
+      <li><a href="#praxisraeume">Praxisräume</a></li>
+      <li><a href="therapeut.html">Therapeut:in</a></li>
+      <li><a href="#faq">Häufige Fragen</a></li>
+      <li><a href="#kontakt">Kontakt</a></li>
+    </ul>
+
+    <div class="nav-actions">
+      <a class="btn btn-primary" href="#kontakt">Termin anfragen</a>
+      <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="navWrap">
+        <span></span>
+        <span class="visually-hidden">Menü öffnen</span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main id="main-content">
+
+  <!-- ==========================================================
+       1. HERO
+       ========================================================== -->
+  <section class="hero" id="hero">
+    <div class="container">
+      <div class="hero-text fade-in">
+        <span class="eyebrow"><i class="ring-dot" aria-hidden="true"></i>Praxis für Psychotherapie</span>
+        <h1>Ein ruhiger Ort für ein erstes Gespräch</h1>
+        <div class="hero-phrases" aria-hidden="true">
+          <span class="phrase is-active">Ein Moment für Sie.</span>
+          <span class="phrase">Raum zum Ankommen.</span>
+          <span class="phrase">Zeit für ein offenes Gespräch.</span>
+        </div>
+        <p>[Kurzer, vertrauensvoller Einleitungstext zur Praxis – z. B. Willkommensworte, Haltung und Angebot in wenigen Sätzen. Platzhaltertext, keine erfundenen Angaben.]</p>
+        <div class="btn-group">
+          <a class="btn btn-primary" href="tel:#">[Telefonnummer] anrufen</a>
+          <a class="btn btn-secondary" href="#kontakt">Kontakt aufnehmen</a>
+        </div>
+      </div>
+      <div class="hero-image fade-in">
+        <!-- Atemring: wiederkehrendes Motiv (Ruhe/Atmung), bricht bewusst aus dem Bildrahmen aus -->
+        <svg class="breath-ring" viewBox="0 0 200 200" aria-hidden="true">
+          <g class="breath-ring-group">
+            <circle class="ring-outer" cx="100" cy="100" r="90"></circle>
+            <circle class="ring-inner" cx="100" cy="100" r="66"></circle>
+          </g>
+        </svg>
+        <!--
+          HIGGSFIELD PROMPT:
+          Fotorealistischer, hochwertiger Empfangs- und Wartebereich einer
+          psychotherapeutischen Praxis in Deutschland. Helles, natürliches
+          Tageslicht, warme neutrale Farbtöne (Beige, Salbeigrün, Creme),
+          minimalistische moderne Möblierung, weiche Textilien, Grünpflanzen,
+          ruhige und einladende Atmosphäre, professionelle Architekturfotografie,
+          keine Menschen, keine Gesichter, keine Schrift, keine Logos, kein
+          Wasserzeichen, realistische Lichtstimmung.
+        -->
+        <img src="hero.png" alt="Heller, ruhiger Empfangsbereich der Praxis mit warmer Möblierung (Platzhalterbild)">
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================
+       2. ÜBER DIE PRAXIS
+       ========================================================== -->
+  <section class="about section-alt" id="ueber-uns">
+    <div class="container">
+      <div class="about-image fade-in">
+        <!--
+          HIGGSFIELD PROMPT:
+          Fotorealistisches Porträt-Ersatzbild: leerer, gemütlicher
+          Gesprächsraum mit zwei Sesseln, warmem Licht, Holzelementen und
+          einer kleinen Pflanze am Fenster. Ruhige, professionelle
+          Atmosphäre, hochwertige Innenarchitektur-Fotografie, natürliche
+          Farbpalette in Beige- und Grüntönen, keine Personen, keine
+          Gesichter, keine Schrift, keine Logos, kein Wasserzeichen.
+        -->
+        <img src="team.png" alt="Gemütlicher, leerer Gesprächsraum der Praxis (Platzhalterbild)">
+      </div>
+      <div class="about-text fade-in">
+        <span class="eyebrow"><i class="ring-dot" aria-hidden="true"></i>Über die Praxis</span>
+        <h2>[Name der Praxis]</h2>
+        <p>[Platzhaltertext zur Vorstellung der Praxis bzw. der behandelnden Person(en). Hier folgen z. B. Angaben zu Ausrichtung, Haltung und Selbstverständnis der Praxis. Keine erfundenen Qualifikationen oder Ausbildungen – diese werden vom Praxisinhaber ergänzt.]</p>
+        <p>[Platzhaltertext zur Praxisphilosophie: Wie wird mit Ratsuchenden zusammengearbeitet? Welche Haltung liegt der Arbeit zugrunde? Wird vom Kunden final ergänzt.]</p>
+        <a class="btn btn-secondary" href="therapeut.html">Mehr über die Therapeutin/den Therapeuten</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================
+       3. ANGEBOT / BEHANDLUNGSSCHWERPUNKTE
+       ========================================================== -->
+  <section class="offer" id="angebot">
+    <div class="container">
+      <div class="section-intro fade-in">
+        <span class="eyebrow"><i class="ring-dot" aria-hidden="true"></i>Angebot</span>
+        <h2>Behandlungsschwerpunkte</h2>
+        <p>[Einleitender Platzhaltertext zum Leistungsangebot. Konkrete Schwerpunkte und Therapieverfahren werden vom Praxisinhaber final festgelegt und ergänzt.]</p>
+      </div>
+      <div class="cards-grid">
+        <article class="card fade-in">
+          <div class="card-icon" aria-hidden="true"></div>
+          <h3>[Schwerpunkt 1]</h3>
+          <p>[Neutrale Platzhalterbeschreibung, keine medizinischen Versprechen.]</p>
+        </article>
+        <article class="card fade-in">
+          <div class="card-icon" aria-hidden="true"></div>
+          <h3>[Schwerpunkt 2]</h3>
+          <p>[Neutrale Platzhalterbeschreibung, keine medizinischen Versprechen.]</p>
+        </article>
+        <article class="card fade-in">
+          <div class="card-icon" aria-hidden="true"></div>
+          <h3>[Schwerpunkt 3]</h3>
+          <p>[Neutrale Platzhalterbeschreibung, keine medizinischen Versprechen.]</p>
+        </article>
+        <article class="card fade-in">
+          <div class="card-icon" aria-hidden="true"></div>
+          <h3>[Schwerpunkt 4]</h3>
+          <p>[Neutrale Platzhalterbeschreibung, keine medizinischen Versprechen.]</p>
+        </article>
+        <article class="card fade-in">
+          <div class="card-icon" aria-hidden="true"></div>
+          <h3>[Schwerpunkt 5]</h3>
+          <p>[Neutrale Platzhalterbeschreibung, keine medizinischen Versprechen.]</p>
+        </article>
+        <article class="card fade-in">
+          <div class="card-icon" aria-hidden="true"></div>
+          <h3>[Schwerpunkt 6]</h3>
+          <p>[Neutrale Platzhalterbeschreibung, keine medizinischen Versprechen.]</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================
+       4. ARBEITSWEISE
+       ========================================================== -->
+  <section class="approach section-alt" id="arbeitsweise">
+    <div class="container">
+      <div class="section-intro fade-in">
+        <span class="eyebrow"><i class="ring-dot" aria-hidden="true"></i>Arbeitsweise</span>
+        <h2>Wie eine Zusammenarbeit beginnt</h2>
+        <p>[Platzhaltertext: ruhige, allgemeine Erklärung des grundsätzlichen Ablaufs. Konkrete Angaben werden vom Praxisinhaber ergänzt.]</p>
+      </div>
+      <div class="steps">
+        <div class="step fade-in">
+          <h3>Erster Kontakt</h3>
+          <p>[Platzhaltertext zum Erstkontakt, z. B. telefonisch oder per E-Mail.]</p>
+        </div>
+        <div class="step fade-in">
+          <h3>Kennenlernen</h3>
+          <p>[Platzhaltertext zum ersten gemeinsamen Gespräch.]</p>
+        </div>
+        <div class="step fade-in">
+          <h3>Orientierung</h3>
+          <p>[Platzhaltertext zur gemeinsamen Einschätzung des weiteren Vorgehens.]</p>
+        </div>
+        <div class="step fade-in">
+          <h3>Begleitung</h3>
+          <p>[Platzhaltertext zur weiteren Zusammenarbeit.]</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================
+       5. PRAXISRÄUME
+       ========================================================== -->
+  <section class="rooms" id="praxisraeume">
+    <div class="container">
+      <div class="section-intro fade-in">
+        <span class="eyebrow"><i class="ring-dot" aria-hidden="true"></i>Praxisräume</span>
+        <h2>Ein Ort zum Ankommen</h2>
+        <p>[Platzhaltertext zur Gestaltung und Atmosphäre der Praxisräume.]</p>
+      </div>
+      <div class="room-gallery">
+        <div class="room-item fade-in">
+          <figure>
+            <!--
+              HIGGSFIELD PROMPT:
+              Fotorealistischer, moderner Behandlungsraum in einer
+              psychotherapeutischen Praxis. Zwei helle, bequeme Sessel,
+              warmes Tageslicht durch großes Fenster, natürliche Materialien
+              wie Holz und Leinen, dezente Pflanzen, ruhige neutrale
+              Farbpalette, hochwertige Innenarchitektur-Fotografie, keine
+              Menschen, keine Gesichter, keine Schrift, keine Logos, kein
+              Wasserzeichen.
+            -->
+            <img src="raum1.png" alt="Heller Behandlungsraum mit zwei Sesseln und Tageslicht (Platzhalterbild)">
+            <figcaption>[Bildunterschrift Raum 1]</figcaption>
+          </figure>
+        </div>
+        <div class="room-item fade-in">
+          <figure>
+            <!--
+              HIGGSFIELD PROMPT:
+              Fotorealistischer, ruhiger Wartebereich einer
+              psychotherapeutischen Praxis mit weichem Sofa, warmer
+              indirekter Beleuchtung, Naturmaterialien und Grünpflanzen.
+              Helle, freundliche und zurückhaltende Gestaltung,
+              professionelle Architekturfotografie, keine Menschen, keine
+              Gesichter, keine Schrift, keine Logos, kein Wasserzeichen.
+            -->
+            <img src="raum2.png" alt="Ruhiger Wartebereich mit Sofa und warmer Beleuchtung (Platzhalterbild)">
+            <figcaption>[Bildunterschrift Raum 2]</figcaption>
+          </figure>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================
+       6. HÄUFIGE FRAGEN
+       ========================================================== -->
+  <section class="faq section-alt" id="faq">
+    <div class="container">
+      <div class="section-intro fade-in">
+        <span class="eyebrow"><i class="ring-dot" aria-hidden="true"></i>Häufige Fragen</span>
+        <h2>Fragen &amp; Antworten</h2>
+      </div>
+      <div class="faq-list fade-in">
+        <details class="faq-item">
+          <summary>Wie kann ich einen Termin vereinbaren?</summary>
+          <p>[Platzhaltertext zur Terminvereinbarung, z. B. telefonisch oder per E-Mail.]</p>
+        </details>
+        <details class="faq-item">
+          <summary>Wie läuft ein erstes Gespräch ab?</summary>
+          <p>[Platzhaltertext zum Ablauf eines Erstgesprächs.]</p>
+        </details>
+        <details class="faq-item">
+          <summary>Werden die Kosten von der Krankenkasse übernommen?</summary>
+          <p>[Platzhaltertext zur Kostenübernahme – wird individuell ergänzt.]</p>
+        </details>
+        <details class="faq-item">
+          <summary>Wie lange dauert eine Behandlung in der Regel?</summary>
+          <p>[Platzhaltertext zur Behandlungsdauer – individuell verschieden.]</p>
+        </details>
+        <details class="faq-item">
+          <summary>Sind meine Angaben vertraulich?</summary>
+          <p>Alle Gespräche unterliegen der gesetzlichen Schweigepflicht für Psychotherapeutinnen und Psychotherapeuten.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================
+       7. KONTAKT
+       ========================================================== -->
+  <section class="contact" id="kontakt">
+    <div class="container">
+      <div class="contact-text fade-in">
+        <span class="eyebrow"><i class="ring-dot" aria-hidden="true"></i>Kontakt</span>
+        <h2>Nehmen Sie Kontakt auf</h2>
+        <p>[Platzhaltertext: kurze, einladende Aufforderung zur Kontaktaufnahme per Telefon oder E-Mail.]</p>
+        <ul class="contact-list">
+          <li>
+            <span class="label">Telefon</span>
+            <a href="tel:#">[Telefonnummer]</a>
+          </li>
+          <li>
+            <span class="label">E-Mail</span>
+            <a href="mailto:#">[E-Mail-Adresse]</a>
+          </li>
+          <li>
+            <span class="label">Adresse</span>
+            [Adresse]
+          </li>
+          <li>
+            <span class="label">Sprechzeiten</span>
+            [Sprechzeiten / Termine nach Vereinbarung]
+          </li>
+        </ul>
+      </div>
+      <div class="contact-note fade-in">
+        <h3>Hinweis</h3>
+        <p>Aus Datenschutzgründen verzichtet diese Website bewusst auf ein Kontaktformular mit Gesundheitsangaben. Bitte nehmen Sie telefonisch oder per E-Mail Kontakt auf.</p>
+        <p>[Platzhaltertext: Hinweis zu Erreichbarkeit, Rückrufoption oder Anfahrt.]</p>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- ==========================================================
+     FOOTER
+     ========================================================== -->
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <h3>[Name der Praxis]</h3>
+        <p>[Platzhaltertext: kurze Abschlusszeile, z. B. „Praxis für Psychotherapie“.]</p>
+      </div>
+      <div>
+        <h3>Kontakt</h3>
+        <ul class="footer-links">
+          <li><a href="tel:#">[Telefonnummer]</a></li>
+          <li><a href="mailto:#">[E-Mail-Adresse]</a></li>
+          <li>[Adresse]</li>
+        </ul>
+      </div>
+      <div>
+        <h3>Praxis</h3>
+        <ul class="footer-links">
+          <li><a href="therapeut.html">Über die Therapeutin/den Therapeuten</a></li>
+          <li><a href="impressum.html">Impressum</a></li>
+          <li><a href="datenschutz.html">Datenschutz</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <span>© <span id="year"></span> [Name der Praxis]</span>
+      <span>Unverbindlicher Designentwurf</span>
+    </div>
+  </div>
+</footer>
+
+</div><!-- /.page -->
+
+<script src="script.js"></script>
+
+</body>
+</html>
